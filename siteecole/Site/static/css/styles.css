@@ -1,0 +1,53 @@
+/* Global style reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style pour la barre de navigation */
+nav ul {
+    list-style: none;
+    display: flex; /* Aligne les éléments sur une ligne */
+    justify-content: flex-end; /* Aligne les liens à droite */
+    padding: 10px; /* Espace entre le bord de la page et les liens */
+    background-color: #f8f8f8; /* Couleur de fond de la barre */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espace entre les liens */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Couleur du texte des liens */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Couleur du lien au survol */
+}
+
+/* Style pour positionner la barre en haut à droite */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%; /* Barre qui s'étend sur toute la largeur */
+    background-color: #f8f8f8;
+    z-index: 1000; /* Assure que la barre soit toujours au-dessus du contenu */
+}
+
+.container {
+    margin-top: 60px; /* Crée un espace en haut pour éviter que le contenu chevauche la barre */
+    padding: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
